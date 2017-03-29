@@ -27,10 +27,10 @@ namespace test
         public int OrderNumber { get; set; }
         [Category("属性"), DisplayName("9")]
         public string SaleDepartment { get; set; }
-        //[Category("属性"), DisplayName("10")]
-        //public string TansportWays { get; set; }
-        //[Category("属性"), DisplayName("11")]
-        //public string Currency { get; set; }
+        [Category("属性"), DisplayName("10")]
+        public string TansportWays { get; set; }
+        [Category("属性"), DisplayName("11")]
+        public string Currency { get; set; }
         //[Category("属性"), DisplayName("12")]
         //public string BusinessType { get; set; }
         //[Category("属性"), DisplayName("13")]
