@@ -27,20 +27,20 @@ namespace test
         public int OrderNumber { get; set; }
         [Category("属性"), DisplayName("9")]
         public string SaleDepartment { get; set; }
-        //[Category("属性"), DisplayName("10")]
-        //public string TansportWays { get; set; }
-        //[Category("属性"), DisplayName("11")]
-        //public string Currency { get; set; }
-        //[Category("属性"), DisplayName("12")]
-        //public string BusinessType { get; set; }
-        //[Category("属性"), DisplayName("13")]
-        //public int RepcepitNumber { get; set; }
-        //[Category("属性"), DisplayName("14")]
-        //public string Salesman { get; set; }
-        //[Category("属性"), DisplayName("15")]
-        //public string PaymentCondition { get; set; }
-        //[Category("属性"), DisplayName("16")]
-        //public double ExchangeRate { get; set; }
+        [Category("属性"), DisplayName("10")]
+        public string TansportWays { get; set; }
+        [Category("属性"), DisplayName("11")]
+        public string Currency { get; set; }
+        [Category("属性"), DisplayName("12")]
+        public string BusinessType { get; set; }
+        [Category("属性"), DisplayName("13")]
+        public int RepcepitNumber { get; set; }
+        [Category("属性"), DisplayName("14")]
+        public string Salesman { get; set; }
+        [Category("属性"), DisplayName("15")]
+        public string PaymentCondition { get; set; }
+        [Category("属性"), DisplayName("16")]
+        public double ExchangeRate { get; set; }
 
 
     }
